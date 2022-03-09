@@ -1,0 +1,799 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+/* ---------------------------- root global start --------------------------- */
+:root {
+    --swiper-theme-color: #007aff;
+    --color-off-sections: white;
+}
+/* ----------------------------- root global end ---------------------------- */
+
+/* ----------------------------- main site usage start ---------------------------- */
+.color-regular {
+    color: var(--swiper-theme-color);
+}
+.zindex {
+    z-index: 999999999999999;
+}
+.for-zindex {
+    z-index: 8888;
+}
+/* ----------------------------- main site usage end ---------------------------- */
+
+
+
+
+
+/* ------------------------- navbar-drop-down-start ------------------------- */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    padding: 0px 5px;
+}
+.dropdown-content {
+    opacity: 0;
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+    z-index: 999999999;
+    width: 10rem;
+}
+.dropdown-content a {
+    color: black;
+    width: 100%;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    opacity: 1;
+    background-color: #ddd;
+}
+.dropdown-2 {
+    margin: auto;
+    padding: 0px 5px;
+}
+.dropdown-content-2 {
+    opacity: 0;
+    background-color: rgb(241, 241, 241, );
+    z-index: 999999999999;
+    width: 10rem;
+}
+.dropdown-content-2 a {
+    color: black;
+    width: 100%;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content-2 a:hover {
+    background-color: #ddd;
+}
+.dropdown-2:hover .dropdown-content-2 {
+    opacity: 1;
+    background-color: #ddd;
+}
+/* -------------------------- navbar-drop-down-end -------------------------- */
+
+
+
+/* ------------------------------ header start ------------------------------ */
+.img-back {
+    background-image: url(../imgs/header/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-tittle h1 {
+    font-size: 4.5rem;
+}
+
+.img-tittle .key-frams::after {
+    content: "|";
+    animation: text 6s infinite 0s alternate;
+    font-size: 2.5rem;
+}
+
+@keyframes text {
+    0% {
+        content: "F|";
+    }
+
+    2% {
+        content: "Fr|";
+    }
+
+    4% {
+        content: "Fre|";
+    }
+
+    6% {
+        content: "Ffree|";
+    }
+
+    8% {
+        content: "Freel|";
+    }
+
+    10% {
+        content: "Ffreela|";
+    }
+
+    12% {
+        content: "Ffreelan|";
+    }
+
+    14% {
+        content: "Ffreelanc|";
+    }
+
+    16% {
+        content: "Ffreelance|";
+    }
+
+    18% {
+        content: "Ffreelancer|";
+    }
+
+    20% {
+        content: "Ffreelancer|";
+
+    }
+
+    22% {
+        content: "Ffreelancer|";
+
+    }
+
+    24% {
+        content: "Ffreelancer|";
+
+    }
+
+    25% {
+        content: "Ffreelancer|";
+
+    }
+
+
+
+
+
+    27% {
+        content: " DE|";
+    }
+
+    29% {
+        content: "DeV|";
+    }
+
+    31% {
+        content: "DeVe|";
+    }
+
+    33% {
+        content: "Devel|";
+    }
+
+    35% {
+        content: "Develo|";
+    }
+
+    37% {
+        content: "Develo|";
+    }
+
+    39% {
+        content: "Develop|";
+    }
+
+    41% {
+        content: "Develope|";
+    }
+
+    43% {
+        content: "Deeveloper|";
+    }
+
+    45% {
+        content: "Deeveloper|";
+    }
+
+    47% {
+        content: "Deeveloper|";
+
+    }
+
+    49% {
+        content: "Deeveloper|";
+    }
+
+    50% {
+        content: "Deeveloper|";
+    }
+
+
+
+
+
+
+    52% {
+        content: " D|";
+    }
+
+    54% {
+        content: "De|";
+    }
+
+    56% {
+        content: "De|";
+    }
+
+    58% {
+        content: "Des|";
+    }
+
+    60% {
+        content: "Desi|";
+    }
+
+    62% {
+        content: "Desig|";
+    }
+
+    64% {
+        content: "Design|";
+    }
+
+    66% {
+        content: "Designe|";
+    }
+
+    68% {
+        content: "Designer|";
+    }
+
+    70% {
+        content: "Designer|";
+    }
+
+    72% {
+        content: "Designer|";
+
+    }
+
+    74% {
+        content: "Designer|";
+
+    }
+
+    75% {
+        content: "Designer|";
+
+    }
+
+    77% {
+        content: " Ph|";
+    }
+
+    79% {
+        content: "Pho|";
+    }
+
+    81% {
+        content: "Phot|";
+    }
+
+    83% {
+        content: "Photo|";
+    }
+
+    85% {
+        content: "Photog|";
+    }
+
+    87% {
+        content: "photogr|";
+    }
+
+    89% {
+        content: "photogra|";
+    }
+
+    91% {
+        content: "photograf|";
+    }
+
+    93% {
+        content: "photografe|";
+    }
+
+    95% {
+        content: "photografer|";
+    }
+
+    97% {
+        content: "photografer|";
+
+    }
+
+    99% {
+        content: "photografer|";
+
+    }
+
+    100% {
+        content: "|";
+
+    }
+
+    99% {
+        content: "photografer|";
+    }
+
+    97% {
+        content: "photografer|";
+    }
+
+    95% {
+        content: "photografer|";
+    }
+
+    93% {
+        content: "photografe|";
+    }
+
+    91% {
+        content: "photograf|";
+    }
+
+    89% {
+        content: "photogra|";
+    }
+
+    87% {
+        content: "photogr|";
+
+    }
+
+    85% {
+        content: "Photog|";
+    }
+
+    83% {
+        content: "Photo|";
+    }
+
+    81% {
+        content: "Phot|";
+    }
+
+    79% {
+        content: "Pho|";
+    }
+
+    77% {
+        content: " Ph|";
+    }
+
+    75% {
+        content: "Designer|";
+
+    }
+
+    74% {
+        content: "Designer|";
+
+    }
+
+    72% {
+        content: "Designer|";
+
+    }
+
+    70% {
+        content: "Designer|";
+    }
+
+    68% {
+        content: "Designer|";
+    }
+
+    66% {
+        content: "Designe|";
+    }
+
+    64% {
+        content: "Design|";
+
+    }
+
+    62% {
+        content: "Desig|";
+    }
+
+    60% {
+        content: "Desi|";
+    }
+
+    58% {
+        content: "Des|";
+    }
+
+    56% {
+        content: "De|";
+    }
+
+    54% {
+        content: "De|";
+    }
+
+    52% {
+        content: " D|";
+    }
+
+    50% {
+        content: "Deeveloper|";
+    }
+
+    49% {
+        content: "Deeveloper|";
+    }
+
+    47% {
+        content: "Deeveloper|";
+
+    }
+
+    45% {
+        content: "Deeveloper|";
+    }
+
+    43% {
+        content: "Deeveloper|";
+    }
+
+    41% {
+        content: "Develope|";
+    }
+
+    39% {
+        content: "Develop|";
+    }
+
+    37% {
+        content: "Develo|";
+    }
+
+    35% {
+        content: "Develo|";
+    }
+
+    33% {
+        content: "Devel|";
+    }
+
+    31% {
+        content: "DeVe|";
+    }
+
+    29% {
+        content: "DeV|";
+    }
+
+    27% {
+        content: " DE|";
+    }
+
+    25% {
+        content: "Ffreelancer|";
+
+    }
+
+    24% {
+        content: "Ffreelancer|";
+
+    }
+
+    22% {
+        content: "Ffreelancer|";
+
+    }
+
+    20% {
+        content: "Ffreelancer|";
+
+    }
+
+    18% {
+        content: "Ffreelancer|";
+    }
+
+    16% {
+        content: "Ffreelance|";
+    }
+
+    14% {
+        content: "Ffreelanc|";
+    }
+
+
+
+    12% {
+        content: "Ffreelan|";
+    }
+
+    10% {
+        content: "Ffreela|";
+    }
+
+
+    8% {
+        content: "Freel|";
+    }
+
+    6% {
+        content: "Ffree|";
+    }
+
+
+    4% {
+        content: "Fre|";
+    }
+
+    2% {
+        content: "Fr|";
+    }
+
+
+    0% {
+        content: "F|";
+    }
+
+}
+a:hover {
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+/* ------------------------------- header end ------------------------------- */
+
+
+
+
+/* ----------------------------- section 1 start ---------------------------- */
+.tittle {
+    position: relative;
+
+}
+.tittle::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    height: 3px;
+    background-color: var(--swiper-theme-color);
+    width: 100px;
+
+}
+/* ------------------------------ section 1 end ----------------------------- */
+
+
+
+/* ----------------------------- section 2 start ---------------------------- */
+.tittle2::before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    height: 3px;
+    right: 50%;
+    background-color: var(--swiper-theme-color);
+    width: 40px;
+    margin-top: 20px;
+
+}
+.sec-icon {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    /* background-color: rgb(85, 101, 192); */
+    border: 9px solid rgb(48, 106, 214);
+    border-radius: 50%;
+    transition: all 0.5ms 0.5s ease-out;
+
+}
+.sec-icon:hover {
+    border: 6px solid rgba(48, 106, 214, 0.5);
+    transition: all 0.5ms 0.5s ease-out;
+
+}
+.sec-icon i {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.5ms 0.5s ease-out;
+
+
+}
+/* ---------------------------- icon hover start ---------------------------- */
+.fas.fa-clipboard-check:hover {
+    background-color: var(--swiper-theme-color);
+    transition: all 500ms ease;
+}
+.fas.fa-binoculars:hover {
+    background-color: var(--swiper-theme-color);
+    transition: all 500ms ease-out;
+    ;
+}
+.fas.fa-sun:hover {
+    background-color: var(--swiper-theme-color);
+    transition: all 500ms ease-out;
+}
+.fas.fa-calendar-day:hover {
+    background-color: var(--swiper-theme-color);
+    transition: all 500ms ease-out;
+}
+.fas.fa-briefcase:hover {
+    background-color: var(--swiper-theme-color);
+    transition: all 500ms ease-out;
+}
+.fas.fa-signal:hover {
+    background-color: var(--swiper-theme-color);
+    transition: all 500ms ease-out;
+}
+/* ----------------------------- icon hover end ----------------------------- */
+.coliring {
+    background-color: var(--color-off-sections);
+}
+/* ------------------------------ section 2 end ----------------------------- */
+
+
+
+/* ----------------------------- section 3 start ---------------------------- */
+.section-img {
+    background-image: url(../imgs/sec-2/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 5px;
+
+}
+.skin {
+    background-color: rgba(48, 106, 214, 0.6);
+}
+.zindex-1 {
+    z-index: 1;
+}
+.sec-icon2 {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    /* background-color: rgb(85, 101, 192); */
+    border: 9px solid rgb(48, 106, 214);
+    border-radius: 50%;
+}
+/* ------------------------------ section 3 end ----------------------------- */
+
+
+
+
+/* ------------------------------- sec 4 start ------------------------------ */
+.sec-4 {
+    overflow: hidden;
+}
+.sec-4 i {
+    margin: auto;
+
+    /* background-color: rgb(85, 101, 192); */
+    border: 2px solid rgb(48, 106, 214);
+    border-radius: 50%;
+    color: rgb(48, 106, 214);
+
+}
+.hovering img {
+    transition: transform .5s;
+}
+.hovering img:hover {
+    transform: scale(1.5);
+}
+/* -------------------------------- sec 4 end ------------------------------- */
+
+
+
+
+/* ------------------------------- sec 5 start ------------------------------ */
+.slider-bg-img {
+    background-image: url(../imgs/sec-7/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+.slider-bg-skin {
+    background-color: rgba(48, 106, 214, 0.7);
+}
+.slider-img {
+    width: 7rem;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+/* -------------------------------- sec 5 end ------------------------------- */
+
+
+
+/* ------------------------------- sec 6 start ------------------------------ */
+.card-category {
+    bottom: -9px;
+    background-color: var(--swiper-theme-color);
+    text-align: center;
+}
+/* -------------------------------- sec 6 end ------------------------------- */
+
+
+
+/* ----------------------------- section 7 start ---------------------------- */
+.sec-7-img {
+    background-image: url(../imgs/sec-7/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 5px;
+}
+.social-icons {
+
+    border: 3px solid rgb(48, 106, 214);
+    border-radius: 50%;
+    transition: all 0.5s ease-out;
+}
+.social-icons:hover {
+    border: 2px solid rgba(48, 106, 214, 0.3);
+    background-color: var(--swiper-theme-color);
+    transition: all 0.5s ease-out;
+
+
+}
+/* ---------------------------- icon hover sec-7 start ---------------------------- */
+.social-icons i {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.5ms ease-out;
+
+
+}
+.fab.fa-facebook:hover {
+    transition: all 0.5s ease-out;
+    background-color: var(--swiper-theme-color);
+
+}
+.fab.fa-twitter:hover {
+    transition: all 0.5s ease-out;
+    background-color: var(--swiper-theme-color);
+}
+.fab.fa-instagram:hover {
+    transition: all 0.5s ease-out;
+    background-color: var(--swiper-theme-color);
+}
+.fab.fa-linkedin:hover {
+    transition: all 0.5s ease-out;
+    background-color: var(--swiper-theme-color);
+}
+/* ---------------------------- icon hover sec-7 end ---------------------------- */
+
+
+/* ------------------------------ section 7 end ----------------------------- */
